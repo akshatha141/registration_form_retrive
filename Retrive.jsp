@@ -18,7 +18,7 @@ String connectionURL = "jdbc:mysql://localhost:3306/database1";
 Statement st =null;
 ResultSet rs =null;
  Class.forName("com.mysql.jdbc.Driver").newInstance(); 
-  conn = DriverManager.getConnection(connectionURL, "root", "Mysore14!");
+  conn = DriverManager.getConnection(connectionURL, "root", " ");
   st =conn.createStatement();
 String sql ="select * from registration";
  rs =st.executeQuery(sql);
